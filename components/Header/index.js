@@ -30,7 +30,7 @@ function Header() {
 
     header.append(date,title,temp)    
 
-    console.log(header)
+    // console.log(header)
     return header
 
 }
