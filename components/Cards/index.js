@@ -23,7 +23,7 @@ function getNews(articleType) {
     const thePromise = axios.get(`https://lambda-times-backend.herokuapp.com/articles`)
 
     thePromise.then(response => {
-        console.log('the getNews API returned:', response)
+        // console.log('the getNews API returned:', response)
 
         const article = response.data.articles[articleType]
 

@@ -12,7 +12,7 @@ function getTabs() {
     const thePromise = axios.get('https://lambda-times-backend.herokuapp.com/topics')
 
     thePromise.then(response => {
-        console.log('the response from the API is:', response)
+        // console.log('the response from the API is:', response)
 
         response.data.topics.forEach(topic => {
             const tab = document.createElement('div')
